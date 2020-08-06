@@ -1,0 +1,32 @@
+.tableView{
+    border-style: solid;
+    border-radius: 5px;
+    width: 80%;
+    height: 100%;
+    align-items: center;
+    font-weight: bold;
+    color: black;
+    margin: 5px auto;
+    -webkit-transition: -webkit-transform 1s,opacity 1s,background 1s,width 1s,height 1s,font-size 1s;
+    transition: width 2s;
+    transition-property: width,height,transform,background,font-size,opacity;
+    transition-duration: 1s,1s,1s,1s,1s,1s;
+    border-radius: 5px;
+    opacity: 0.4;
+  }
+
+
+  .tableView:hover {
+    width: 85%;
+    height: 30px;
+    align-items: center;
+    color: darkblue;
+}
+  .deleteIcon{
+    margin-right: 2%;
+    float: right;
+  }
+  .deleteIcon:hover{
+    margin-top: 2px;
+    color: red;
+  }

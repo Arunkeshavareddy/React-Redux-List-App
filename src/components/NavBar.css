@@ -1,0 +1,39 @@
+.tableList{
+    background-color: #1abc9c;
+    color: #ffffff;
+    font-style: italic;
+  }
+  
+  .navbar-form{
+    text-align: center;
+  }
+  
+  .navbar-brand {
+    color: black;
+    font-size: 30px;
+  }
+  
+  input.form-control {
+      width: 400px !important;
+      height: 30px;
+      border-radius: 21px;
+      border-color: black;
+  }
+
+  button.btn {
+      background-color: darkblue;
+      height: 30px;
+  }
+  .tableView{
+    border-style: solid;
+    border-radius: 5px;
+    width: 80%;
+    height: 100%;
+    align-items: center;
+    margin: 5px auto;
+  }
+
+  .deleteIcon{
+    margin-right: 2%;
+    float: right;
+  }
